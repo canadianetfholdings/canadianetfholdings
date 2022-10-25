@@ -18,3 +18,8 @@
     padding:60px 0;
     text-align:center!important;
 }
+@media (max-width:800px) {
+    .search-results > div {
+        justify-content:start;
+    }
+}
