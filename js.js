@@ -154,7 +154,6 @@ $(document).ready(function(){
         }
         const $ele = $input.parent().find('auto-complete');
         $ele.empty().append(html).css('display', 'block');
-        console.log($ele.height());
         if ($ele.height() > 150) {
             $ele.addClass("allow-scroll");
         } else {
