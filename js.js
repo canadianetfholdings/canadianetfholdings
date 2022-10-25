@@ -41,6 +41,7 @@ $(document).ready(function(){
         $(".options").removeClass("drop-down-option-active");
         $(this).css('display', 'none');
         $("info").removeClass("info-active");
+        $("header .btn-round").removeClass("btn-round-active");
     });
     $("simple-search input").keyup((e) => {
         const input = e.target.value.trim();
